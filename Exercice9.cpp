@@ -30,7 +30,7 @@ int main() {
     int k = 2;
 
     std::cout << "Version Iterative : " << combinaison_iter(n, k) << std::endl;
-    std::cout << "Version Recursive : " << combinaison_rec(n, k, 1) << std::endl; // On passe 1 pour le i initial
+    std::cout << "Version Recursive : " << combinaison_rec(n, k, 1) << std::endl;
 
     return 0;
 }
